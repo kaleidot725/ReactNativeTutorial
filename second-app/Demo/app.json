@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3e860505-e0ae-4727-aad1-68a87819e991"
+      }
+    },
+    "owner": "kaleidot725"
   }
 }
