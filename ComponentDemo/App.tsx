@@ -14,3 +14,7 @@ const RootStack = createNativeStackNavigator({
 const Navigation = createStaticNavigation(RootStack);
 
 export type RootStackParamList = StaticParamList<typeof RootStack>;
+
+export default function App() {
+  return <Navigation />;
+}
